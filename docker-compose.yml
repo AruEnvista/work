@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  app:
+    build: .
+    image: docker-img
+    ports:
+      - 8084:8084
